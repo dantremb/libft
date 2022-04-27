@@ -6,7 +6,7 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/04/13 10:28:33 by dantremb         ###   ########.fr        #
+#    Updated: 2022/04/27 12:54:20 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,6 +46,11 @@ $(NAME): $(OBJ)
 bonus: $(OBJ) $(OBJ_BONUS)
 	$(AR) $(ARFLAGS) $(NAME) $(OBJ) $(OBJ_BONUS)
 	
+git:
+	@(git add .)
+	@(git commit -m "dantremb")
+	@(git push)
+
 clean:
 	$(REMOVE) $(OBJ) $(OBJ_BONUS)
 
