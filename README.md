@@ -1,2 +1,2 @@
 # libft
-Remake some of principal function from string.h and stdlib.h
+A lots of function to do things....
