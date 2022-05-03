@@ -6,49 +6,10 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/05/03 11:31:03 by dantremb         ###   ########.fr        #
+#    Updated: 2022/05/03 11:57:01 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-OBJ = $(SRCS:%c=%o)
-
-OBJ_BONUS = $(SRCS_BONUS:%c=%o)
-
-NAME = libft.a
-
-AR = ar
-
-ARFLAGs = rcs
-
-CC = gcc
-
-CCFLAGS = -Wall -Wextra -Werror
-
-REMOVE = rm -f
-
-COMMIT = "dantremb"
-
-all: $(NAME)
-
-$(NAME): $(OBJ)
-	$(AR) $(ARFLAGS) $(NAME) $(OBJ)
-	
-bonus: $(OBJ) $(OBJ_BONUS)
-	$(AR) $(ARFLAGS) $(NAME) $(OBJ) $(OBJ_BONUS)
-	
-clean:
-	$(REMOVE) $(OBJ) $(OBJ_BONUS)
-
-fclean: clean
-	$(REMOVE) $(NAME)
-
-re:	fclean all
-
-git:
-	@(git add .)
-	@(git commit -m "$(COMMIT)")
-	@(git push)
-	
 SRCS = srcs/ft_isascii.c \
 		srcs/ft_strlcpy.c \
 		srcs/ft_toupper.c \
@@ -97,3 +58,44 @@ SRCS_BONUS = srcs/ft_lstmap.c \
 		srcs/ft_lstadd_front.c \
 		srcs/ft_lstnew.c \
 		
+OBJ = $(SRCS:%c=%o)
+
+OBJ_BONUS = $(SRCS_BONUS:%c=%o)
+
+NAME = libft.a
+
+AR = @ar
+
+ARFLAGs = rcs
+
+CC = gcc
+
+CCFLAGS = -Wall -Wextra -Werror
+
+REMOVE = rm -f
+
+COMMIT = "dantremb"
+
+all: $(NAME)
+
+$(NAME): $(OBJ)
+	@echo "\n\033[33m    COMPILING [*......]"
+	@printf "\033c"
+	@$(AR) $(ARFLAGS) $(NAME) $(OBJ)
+	
+bonus: $(OBJ) $(OBJ_BONUS)
+	@$(AR) $(ARFLAGS) $(NAME) $(OBJ) $(OBJ_BONUS)
+	
+clean:
+	@$(REMOVE) $(OBJ) $(OBJ_BONUS)
+
+fclean: clean
+	@$(REMOVE) $(NAME)
+
+re:	fclean all
+
+git:
+	@(git add .)
+	@(git commit -m "$(COMMIT)")
+	@(git push)
+	
