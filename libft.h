@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 22:40:58 by root              #+#    #+#             */
-/*   Updated: 2022/04/13 10:28:46 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/08 09:28:28 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ int				ft_atoi(const char *str);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
 int				ft_memcmp(const void *s1, const void *s2, size_t len);
 size_t			ft_strlen(const char *str);
-size_t			ft_strlcpy(char *dest, char *src, size_t size);
+size_t			ft_strlcpy(char *dest, const char *src, size_t size);
 size_t			ft_strlcat(char *dst, const char *src, size_t size);
 char			*ft_strcat(char *dest, char *src);
 char			*ft_itoa(int nbr);

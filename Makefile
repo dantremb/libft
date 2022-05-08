@@ -6,7 +6,7 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/05/03 11:57:01 by dantremb         ###   ########.fr        #
+#    Updated: 2022/05/08 09:30:26 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -68,19 +68,17 @@ AR = @ar
 
 ARFLAGs = rcs
 
-CC = gcc
+CC = @gcc
 
 CCFLAGS = -Wall -Wextra -Werror
 
-REMOVE = rm -f
+REMOVE = @rm -f
 
 COMMIT = "dantremb"
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	@echo "\n\033[33m    COMPILING [*......]"
-	@printf "\033c"
 	@$(AR) $(ARFLAGS) $(NAME) $(OBJ)
 	
 bonus: $(OBJ) $(OBJ_BONUS)
