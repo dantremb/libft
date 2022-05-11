@@ -6,7 +6,7 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/05/10 23:51:05 by dantremb         ###   ########.fr        #
+#    Updated: 2022/05/11 00:16:56 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -61,21 +61,52 @@ OBJ = $(SRCS:%c=%o)
 
 NAME = libft.a
 
-AR = @ar
+AR = ar
 
-ARFLAGs = rcs
+ARFLAGS = rcs
 
 CC = @gcc
 
-CCFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror
 
-REMOVE = @rm -f
+REMOVE = rm -f
 
 TIME = $(shell date "+%d %B %T")
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
+	@(echo "Compiling [*---------]")
+	@printf "\032"
+	@sleep 0.2
+	@(echo "Compiling [**--------]")
+	@printf "\033"
+	@sleep 0.2
+	@(echo "Compiling [***-------]")
+	@printf "\033"
+	@sleep 0.2
+	@(echo "Compiling [****------]")
+	@printf "\033"
+	@sleep 0.2
+	@(echo "Compiling [*****-----]")
+	@printf "\033"
+	@sleep 0.2
+	@(echo "Compiling [******----]")
+	@printf "\033"
+	@sleep 0.2
+	@(echo "Compiling [*******---]")
+	@printf "\033"
+	@sleep 0.2
+	@(echo "Compiling [********--]")
+	@printf "\033"
+	@sleep 0.2
+	@(echo "Compiling [*********-]")
+	@printf "\033"
+	@sleep 0.2
+	@printf "\033"
+	@(echo "Compiling [**********]")
+	@sleep 0.2
+	@(echo "Compiling [**FINISH**]")
 	@$(AR) $(ARFLAGS) $(NAME) $(OBJ)
 	
 clean:
