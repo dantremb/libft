@@ -6,7 +6,7 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/05/08 09:30:26 by dantremb         ###   ########.fr        #
+#    Updated: 2022/05/10 23:51:05 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,8 +47,7 @@ SRCS = srcs/ft_isascii.c \
 		srcs/ft_strchr.c \
 		srcs/ft_putnbr_fd.c \
 		srcs/ft_putendl_fd.c \
-		
-SRCS_BONUS = srcs/ft_lstmap.c \
+		srcs/ft_lstmap.c \
 		srcs/ft_lstiter.c \
 		srcs/ft_lstclear.c \
 		srcs/ft_lstdelone.c \
@@ -59,8 +58,6 @@ SRCS_BONUS = srcs/ft_lstmap.c \
 		srcs/ft_lstnew.c \
 		
 OBJ = $(SRCS:%c=%o)
-
-OBJ_BONUS = $(SRCS_BONUS:%c=%o)
 
 NAME = libft.a
 
@@ -74,18 +71,15 @@ CCFLAGS = -Wall -Wextra -Werror
 
 REMOVE = @rm -f
 
-COMMIT = "dantremb"
+TIME = $(shell date "+%d %B %T")
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
 	@$(AR) $(ARFLAGS) $(NAME) $(OBJ)
 	
-bonus: $(OBJ) $(OBJ_BONUS)
-	@$(AR) $(ARFLAGS) $(NAME) $(OBJ) $(OBJ_BONUS)
-	
 clean:
-	@$(REMOVE) $(OBJ) $(OBJ_BONUS)
+	@$(REMOVE) $(OBJ)
 
 fclean: clean
 	@$(REMOVE) $(NAME)
@@ -94,6 +88,6 @@ re:	fclean all
 
 git:
 	@(git add .)
-	@(git commit -m "$(COMMIT)")
+	@git commit -m "$(TIME)"
 	@(git push)
 	

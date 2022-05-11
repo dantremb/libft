@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 13:54:46 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/08 09:35:34 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/10 23:36:28 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,6 @@ void	*ft_memchr(const void *src, int nbr, size_t len)
 	i = -1;
 	while (++i < len)
 		if (((unsigned char *)src)[i] == (unsigned char)nbr)
-			return (&((void *)src)[i]);
+			return (&((int *) src)[i]);
 	return (NULL);
 }
