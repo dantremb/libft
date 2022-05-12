@@ -6,7 +6,7 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/05/12 00:20:23 by dantremb         ###   ########.fr        #
+#    Updated: 2022/05/12 00:23:31 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,7 +45,7 @@ all: init $(NAME)
 	@echo "Libft Compiled!"
 	
 init:
-	@printf "Compiling"
+	@printf "Compiling."
 	
 %.o: %.c
 	@printf "."
