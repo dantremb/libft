@@ -6,7 +6,7 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/05/11 23:56:02 by dantremb         ###   ########.fr        #
+#    Updated: 2022/05/12 00:20:23 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,6 +38,8 @@ CFLAGS = -Wall -Wextra -Werror -g
 
 REMOVE = rm -rf
 
+TIME = $(shell date "+%d %B %T")
+
 all: init $(NAME)
 	@printf "Done.\n"
 	@echo "Libft Compiled!"
@@ -59,3 +61,8 @@ fclean: clean
 	@$(REMOVE) $(NAME)
 
 re:	fclean all
+
+git:
+	@git add *
+	@git commit -m "$(TIME)"
+	@git push
