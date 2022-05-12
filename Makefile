@@ -6,7 +6,7 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/05/12 00:23:31 by dantremb         ###   ########.fr        #
+#    Updated: 2022/05/12 00:30:43 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,7 +38,7 @@ CFLAGS = -Wall -Wextra -Werror -g
 
 REMOVE = rm -rf
 
-TIME = $(shell date "+%d %B %T")
+COMMIT = $(shell date "+%d %B %T")
 
 all: init $(NAME)
 	@printf "Done.\n"
@@ -63,6 +63,6 @@ fclean: clean
 re:	fclean all
 
 git:
-	@git add *
-	@git commit -m "$(TIME)"
-	@git push
+	git add *
+	git commit -m "$(COMMIT)"
+	git push
