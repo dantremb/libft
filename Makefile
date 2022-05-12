@@ -6,11 +6,13 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/05/12 00:30:43 by dantremb         ###   ########.fr        #
+#    Updated: 2022/05/12 00:32:58 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
+
+PRINT_NAME = libft
 
 SRCS_FILES = ft_isascii.c ft_strlcpy.c ft_toupper.c ft_memchr.c ft_memmove.c \
 		ft_putnbr_fd.c ft_putendl_fd.c ft_lstmap.c ft_lstiter.c ft_lstclear.c \
@@ -42,7 +44,7 @@ COMMIT = $(shell date "+%d %B %T")
 
 all: init $(NAME)
 	@printf "Done.\n"
-	@echo "Libft Compiled!"
+	@echo "$(PRINT_NAME) Compiled!"
 	
 init:
 	@printf "Compiling."
