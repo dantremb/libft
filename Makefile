@@ -6,7 +6,7 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/05/12 00:34:29 by dantremb         ###   ########.fr        #
+#    Updated: 2022/05/12 00:42:56 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,14 +43,14 @@ REMOVE = rm -rf
 COMMIT = $(shell date "+%d %B %T")
 
 all: init $(NAME)
-	@printf "Done.\n"
-	@printf "$(PRINT_NAME) Compiled!"
+	@echo "> Done!.\n"
+	@echo "$(PRINT_NAME) Compiled!"
 	
 init:
-	@printf "Compiling."
+	@printf "Compiling -"
 	
 %.o: %.c
-	@printf "."
+	@printf "-"
 	@$(CC) $(CFLAGS) -c -o $@ $<
 
 $(NAME): $(OBJS)
