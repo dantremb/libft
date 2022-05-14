@@ -6,7 +6,7 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/05/12 00:42:56 by dantremb         ###   ########.fr        #
+#    Updated: 2022/05/13 23:05:40 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -65,6 +65,6 @@ fclean: clean
 re:	fclean all
 
 git:
-	git add *
+	git add .
 	git commit -m "$(COMMIT)"
 	git push

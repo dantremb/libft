@@ -1,4 +1,4 @@
-*** Nom du programme *** 
+*** Nom du programme ***
 libft.a
 
 *** Fichiers de rendu ***
