@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 16:57:30 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/02 12:11:22 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:40:22 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@
 /* restante et faire ft_substr une derniere fois. On retour notre tableau de  */
 /* pointer et aucune variable temporaire a besoin d'être free				  */
 
-#include "../libft.h"
+#include "libft.h"
 
 static int	ft_count_word(char const *src, char sep)
 {

@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 16:57:18 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/02 12:09:17 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:39:21 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 /* jusqu'a ce que "i" sois égal à 0 donc le dernier caractère sera l'unité.   */
 /* on retourne ensuite notre chaine de caractère "temp" 					  */
 
-#include "../libft.h"
+#include "libft.h"
 
 static int	ft_intlen(int nbr)
 {

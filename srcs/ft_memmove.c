@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 23:19:04 by root              #+#    #+#             */
-/*   Updated: 2022/05/02 12:10:01 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:39:58 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 /* de copier ce qui à déja été copier. sinon fait la copie de la meme facon   */
 /* que ft_memcpy puis on retourne un pointer sur "dst"						  */
 
-#include "../libft.h"
+#include "libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {

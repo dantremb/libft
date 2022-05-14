@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/07 13:06:04 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/02 12:11:44 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:40:46 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 /* dans "str" avec un compteur et on retourne le compteur quand on rencontre  */
 /* un caractère NULL.														  */
 
-#include "../libft.h"
+#include "libft.h"
 
 size_t	ft_strlen(const char *str)
 	{

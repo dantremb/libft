@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 10:00:13 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/02 12:09:48 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:39:46 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 /* grandeur d'une t_list. Le contenu de temp est égal à "content". le prochain*/
 /* element est NULL. On retourne "temp" 									  */
 
-#include "../libft.h"
+#include "libft.h"
 
 t_list	*ft_lstnew(void *content)
 {

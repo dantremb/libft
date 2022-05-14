@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 16:57:39 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/02 12:11:59 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:40:59 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 /* envoyant la "src", 0 comme début car le pointeur à été avancé puis "end +1"*/
 /* comme longueur qui correspond au dernier caractère valide + 1 pour NULL.	  */
 
-#include "../libft.h"
+#include "libft.h"
 
 char	*ft_strtrim(char const *src, char const *set)
 {

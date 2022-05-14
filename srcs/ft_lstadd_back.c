@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 10:19:43 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/02 12:09:20 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:39:24 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 /* t_list qui sera égal au dernier élément de "lst". Nn dit que le prochain   */
 /* élément est "new". Si "lst" est NULL "lst" sera donc égal à "new"	      */
 
-#include "../libft.h"
+#include "libft.h"
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {

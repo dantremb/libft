@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 16:57:28 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/02 12:11:16 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:40:15 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /* chaine de caractère en deuxieme argument et finalement la longueur de la   */
 /* chaine de caractère pour avoir le nombre de caractère a imprimer			  */
 
-#include "../libft.h"
+#include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)
 {

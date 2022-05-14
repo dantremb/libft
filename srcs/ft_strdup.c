@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/27 00:13:15 by root              #+#    #+#             */
-/*   Updated: 2022/05/02 12:11:30 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:40:32 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 /* l'allocation de memoire n'a pas fonctionner. On peut copier par la suite   */
 /* "src" dans "tmp", fermer la chaine puis on retourne le pointer sur "tmp" */
 
-#include "../libft.h"
+#include "libft.h"
 
 char	*ft_strdup(const char *src)
 {

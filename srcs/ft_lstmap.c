@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 13:01:03 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/02 12:09:43 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:39:43 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 /* liste et retourner NULL ensuite. Quand "lst" n'est plus valide on quitte la*/
 /* boucle et retourne la nouvelle liste.									  */
 
-#include "../libft.h"
+#include "libft.h"
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {

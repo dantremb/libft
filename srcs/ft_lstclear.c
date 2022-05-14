@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 13:00:01 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/02 12:09:33 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:39:30 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 /* qui était égal au suivant. On continue dans la boucle jusqu'a ce que le    */
 /* prochain sois null et lst sera égal à NULL à la fin						  */
 
-#include "../libft.h"
+#include "libft.h"
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {

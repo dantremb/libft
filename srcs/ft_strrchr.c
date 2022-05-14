@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 16:14:03 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/02 12:11:55 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:40:57 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 /* dans "str" on retourne le pointer + le compteur qui va être egal à la      */
 /* position du caractere. Si on trouve rien on retourne NULL.				  */
 
-#include "../libft.h"
+#include "libft.h"
 
 char	*ft_strrchr(const char *str, int nbr)
 {

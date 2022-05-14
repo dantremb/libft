@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/07 13:06:46 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/02 12:11:19 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:40:17 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 /* la fonction sinon avec une boucle et compteur on imprime chaque caractere  */
 /* jusqu'au caractère NULL avec la fonction ft_putchar						  */
 
-#include "../libft.h"
+#include "libft.h"
 
 void	ft_putstr(char *str)
 {

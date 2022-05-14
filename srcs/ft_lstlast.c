@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 10:18:53 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/02 12:09:40 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/13 13:39:40 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /* on dit que "lst" est égal au prochain dans la liste. Quand la boucle est   */
 /* terminé on renvoi alors le dernier pointeur de "lst"						  */
 
-#include "../libft.h"
+#include "libft.h"
 
 t_list	*ft_lstlast(t_list *lst)
 {
