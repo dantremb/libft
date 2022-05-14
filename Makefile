@@ -6,7 +6,7 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/05/13 23:05:40 by dantremb         ###   ########.fr        #
+#    Updated: 2022/05/14 09:36:18 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,7 +54,7 @@ init:
 	@$(CC) $(CFLAGS) -c -o $@ $<
 
 $(NAME): $(OBJS)
-	@$(AR) $(ARFLAGS) -o $@ $^
+	@$(AR) $(ARFLAGS) $@ $^
 
 clean:
 	@$(REMOVE) $(OBJS)
