@@ -6,7 +6,7 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/05/14 09:36:18 by dantremb         ###   ########.fr        #
+#    Updated: 2022/05/14 10:04:26 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,7 +43,7 @@ REMOVE = rm -rf
 COMMIT = $(shell date "+%d %B %T")
 
 all: init $(NAME)
-	@echo "> Done!.\n"
+	@echo "> Done!."
 	@echo "$(PRINT_NAME) Compiled!"
 	
 init:
