@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 16:57:35 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/13 13:40:37 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/14 20:34:31 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	}
 	while (s2 && s2[id])
 		tmp[is++] = s2[id++];
-	tmp[id] = '\0';
+	tmp[is] = '\0';
 	return (tmp);
 }
