@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 23:16:36 by root              #+#    #+#             */
-/*   Updated: 2022/05/13 13:40:39 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:40:10 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 /* avec un second compteur pour "dst". On ferme la chaine et on retourne le   */
 /* le nombre de caractère total de "dst" après la copie					      */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {

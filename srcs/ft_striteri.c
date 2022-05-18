@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 16:57:32 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/13 13:40:34 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:40:04 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 /* l'addresse de chaque caractere dans la fonction pour aller modifier la case*/
 /* memoire et le premier argument de la fonction demain etait le compteur	  */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void	ft_striteri(char *src, void (*f)(unsigned int, char*))
 {

@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 13:54:46 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/13 13:39:51 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:39:27 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /* sera donc converti en caractère. On retourne un pointer vers la premiere   */
 /* zone mémoire ou on retrouve le caractère sinon on retourne NULL.			  */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void	*ft_memchr(const void *src, int nbr, size_t len)
 {

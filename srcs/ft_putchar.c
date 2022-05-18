@@ -6,13 +6,13 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 23:42:20 by root              #+#    #+#             */
-/*   Updated: 2022/05/13 13:40:07 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:39:39 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /* écrit sur la sortie standard le caractère recu dans "src"				  */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void	ft_putchar(char src)
 {

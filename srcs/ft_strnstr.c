@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 14:43:58 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/13 13:40:54 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:40:25 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /* si "find" est trouvé au complet on retourne notre pointeur "str + compteur"*/
 /* si rien n'est trouvé on retourne NULL.									  */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 char	*ft_strnstr(const char *str, const char *find, size_t len)
 {

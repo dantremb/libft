@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 16:57:37 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/13 13:40:49 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:40:19 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 /* "temp" égal NULL. On tourne en boucle la fonction à appliquer a chaque     */
 /* caractère et on retourne le pointer sur notre nouvelle chaine de caractère */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 char	*ft_strmapi(char const *src, char (*f)(unsigned int, char))
 {

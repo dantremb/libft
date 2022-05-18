@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/27 00:35:05 by root              #+#    #+#             */
-/*   Updated: 2022/05/13 13:40:42 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:40:13 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /* de "src" sinon on copie "src" dans "dst" jusqu'a ce qu'on arrive à "size"-1*/
 /* pour fermer la chaine par la suite. On retourne la grandeur de "src"		  */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {

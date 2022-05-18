@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 14:11:10 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/13 13:39:53 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:39:29 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 /* retour négatif si "s1" plus petit que "s2 "							  	  */
 /* retour 0 si "s1" est égal à "s2 "									 	  */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t len)
 {

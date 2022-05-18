@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 10:08:30 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/13 13:39:26 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:39:09 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 /* liste "lst" actuel. Puis ensuite on que le premier pointeur de la liste est*/
 /* maintenant egal a "new" 													  */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {

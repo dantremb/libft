@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 12:13:08 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/13 13:39:55 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:39:31 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 /* pointé par "dst". si les pointeurs ne sont pas initialisés on retourne NULL*/
 /* sinon chaque caractère est copié et un pointer vers "dest" est retourné    */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t len)
 {

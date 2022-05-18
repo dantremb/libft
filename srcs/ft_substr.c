@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 16:57:41 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/13 13:41:01 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:40:34 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 /* pointer vide. Sinon on alloue la mémoire puis on copie "src" dans "tmp"    */
 /* on retourne le pointeur "tmp"											  */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 char	*ft_substr(char const *src, unsigned int start, size_t len)
 {

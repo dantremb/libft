@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 16:57:26 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/13 13:40:12 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:39:46 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 /* que 10 la recursion arrete et imprime les caractères en quittant chaque    */
 /* fonction appelé*/
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void	ft_putnbr_fd(int nbr, int fd)
 {

@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 16:57:35 by dantremb          #+#    #+#             */
-/*   Updated: 2022/05/14 20:34:31 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:40:07 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 /* gardant le meme compteur. On referme la chaine de caractère et on retourne */
 /* le pointer sur "tmp"														  */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

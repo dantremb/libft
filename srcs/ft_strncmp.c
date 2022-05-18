@@ -6,11 +6,11 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 22:15:16 by root              #+#    #+#             */
-/*   Updated: 2022/05/13 13:40:52 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:40:22 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 /* On doit comparer "s1" et "s2" juqu'a "n" nombre de caractère. On compare   */
 /* chaque caractere jusqua NULL ou "n" puis dès que l'on trouve une case 	  */

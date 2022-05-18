@@ -6,7 +6,7 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 22:24:10 by root              #+#    #+#             */
-/*   Updated: 2022/05/13 13:39:14 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/05/17 23:38:53 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 /* remplir tous l'espace alloué par des carractères NULL. Si l'allocation     */
 /* échoue on retoure un pointeur NULL.										  */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void	*ft_calloc(size_t nbr, size_t size)
 
