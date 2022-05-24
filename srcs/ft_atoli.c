@@ -6,12 +6,12 @@
 /*   By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 00:49:24 by root              #+#    #+#             */
-/*   Updated: 2022/05/24 19:30:22 by dantremb         ###   ########.fr       */
+/*   Updated: 2022/04/12 22:23:59 by dantremb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /* transforme une chaine de caractère pointé par "str" en valeur numérique    */
-/* dans une variable type long integer. On avance dans la chaine de caractère */
+/* dans une variable de type integer. On avance dans la chaine de caractère   */
 /* tant qu'il y à des espaces ou tabulations. Ensuite on change la valeur de  */
 /* "sign" à -1 si le premier caractère est un tiret. On avance dans la chaine */
 /* tant que les caractère se trouve entre 0 et 9. On commence avec une valeur */
@@ -20,13 +20,13 @@
 /* par 10 pour se déplacer d'une dizaine supplémentaire à chaque caractère.   */
 /* on retoure ensuite la variable "ret" si la variable "sign" est toujours à 1*/
 /* sinon on retourne la variable "ret" multiplier par "sign" qui est rendu à  */
-/* -1 pour rendre la valeur du long int négative.							  */
+/* -1 pour rendre la valeur du int négative.								  */
 
-long int	ft_atoli(const char *str)
+int	ft_atoi(const char *str)
 {
 	unsigned int	i;
-	long int		ret;
-	long int		sign;
+	int				ret;
+	int				sign;
 
 	i = 0;
 	sign = 1;
