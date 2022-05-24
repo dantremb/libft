@@ -6,7 +6,7 @@
 #    By: dantremb <dantremb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/02 23:33:38 by root              #+#    #+#              #
-#    Updated: 2022/05/18 02:12:15 by dantremb         ###   ########.fr        #
+#    Updated: 2022/05/24 19:35:15 by dantremb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,6 +23,7 @@ SRCS_FILES = ft_isascii.c ft_strlcpy.c ft_toupper.c ft_memchr.c ft_memmove.c \
 		ft_striteri.c ft_strjoin.c ft_strmapi.c ft_strtrim.c ft_substr.c \
 		ft_strncmp.c ft_isalpha.c ft_strlcat.c ft_tolower.c ft_memset.c \
 		ft_isdigit.c ft_putstr.c ft_strrchr.c ft_isprint.c ft_strdup.c \
+		ft_atoli.c
 
 # Ajoute le noms du dossier en avant de chaque sources.
 SRCS_PATH = srcs/
